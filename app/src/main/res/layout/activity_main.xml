@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/GridLayout1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:columnCount="8"
+android:rowCount="12"
+android:orientation="horizontal"
+tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:id="@+id/location"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:id="@+id/temperature"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_column="2"
+        android:layout_row="7"
+        android:id="@+id/wind_speed"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_column="3"
+        android:layout_row="7"
+        android:id="@+id/cloudiness"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_column="4"
+        android:layout_row="7"
+
+        android:id="@+id/humidity"
+        />
+
+
+            <Button
+                android:id="@+id/btn_Refresh"
+                android:layout_width="wrap_content"
+                android:layout_column="7"
+                android:layout_row="0"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="@string/Refresh"
+                android:clickable="true"
+                android:onClick="onClick"
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:layout_row="5"
+                android:layout_centerInParent="true"
+                android:id="@+id/icon"
+                 />
+
+
+</GridLayout>
